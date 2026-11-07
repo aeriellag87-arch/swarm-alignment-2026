@@ -1,0 +1,13 @@
+## Summary by reviewer
+
+| Condition | Reviewer | Risky runs where harm got through | Benign runs held up |
+| --- | --- | --- | --- |
+| linked | rule-single | 5 of 10 (50.0%) | 0 of 9 |
+| linked | rule-grouped | 0 of 10 (0.0%) | 0 of 9 |
+| linked | llm-single | 6 of 10 (60.0%) | 0 of 9 |
+| linked | llm-grouped | 6 of 10 (60.0%) | 0 of 9 |
+| linked | llm-grouped-why | 7 of 10 (70.0%) | 0 of 9 |
+
+Model calls: 115 new, 23 from the cache, 0 with no usable reply (counted as a rejection).
+
+Wrote experiment/swarm-2026/runs/20261107T1647Z/entry-b/3-llm-reviewers-second-model/results.md, results.json and decisions.jsonl

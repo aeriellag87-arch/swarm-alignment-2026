@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: the ward milk: a majority vote serves it, the turnstile's one-flag rule checks it
+ok 1 - the ward milk: a majority vote serves it, the turnstile's one-flag rule checks it
+  ---
+  duration_ms: 0.586018
+  type: 'test'
+  ...
+# Subtest: the milk probabilities over all 27 answers add up
+ok 2 - the milk probabilities over all 27 answers add up
+  ---
+  duration_ms: 0.262406
+  type: 'test'
+  ...
+# Subtest: splitting keeps every piece, in order, in at most K requests
+ok 3 - splitting keeps every piece, in order, in at most K requests
+  ---
+  duration_ms: 0.791943
+  type: 'test'
+  ...
+# Subtest: every risky scenario does harm when all of it gets through, and no benign one does
+ok 4 - every risky scenario does harm when all of it gets through, and no benign one does
+  ---
+  duration_ms: 0.161777
+  type: 'test'
+  ...
+# Subtest: the same config and seed give the same run
+ok 5 - the same config and seed give the same run
+  ---
+  duration_ms: 35.487108
+  type: 'test'
+  ...
+# Subtest: with no cartel and no honest errors, every epoch is fair and nobody is revoked
+ok 6 - with no cartel and no honest errors, every epoch is fair and nobody is revoked
+  ---
+  duration_ms: 10.260328
+  type: 'test'
+  ...
+# Subtest: with no defences a cartel's lies are accepted and nobody is caught
+ok 7 - with no defences a cartel's lies are accepted and nobody is caught
+  ---
+  duration_ms: 9.497196
+  type: 'test'
+  ...
+# Subtest: planted faults catch blinded cartel verifiers that suppress batches
+ok 8 - planted faults catch blinded cartel verifiers that suppress batches
+  ---
+  duration_ms: 9.320648
+  type: 'test'
+  ...
+# Subtest: each epoch's audit is chained into a verifiable Playfair attestation
+ok 9 - each epoch's audit is chained into a verifiable Playfair attestation
+  ---
+  duration_ms: 11.898048
+  type: 'test'
+  ...
+# Subtest: simulateWith, left to the scripted decision, gives exactly simulate's run
+ok 10 - simulateWith, left to the scripted decision, gives exactly simulate's run
+  ---
+  duration_ms: 19.384707
+  type: 'test'
+  ...
+# Subtest: a cartel whose members all decide to tell the truth gets nothing accepted
+ok 11 - a cartel whose members all decide to tell the truth gets nothing accepted
+  ---
+  duration_ms: 20.841707
+  type: 'test'
+  ...
+# Subtest: a member who breaks ranks makes the item disputed, and the liars are caught
+ok 12 - a member who breaks ranks makes the item disputed, and the liars are caught
+  ---
+  duration_ms: 21.215949
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 225.678499

@@ -1,0 +1,1696 @@
+{
+  "policy": "greedy",
+  "backend": "none",
+  "model": "none",
+  "size": "small",
+  "seeds": 30,
+  "base": {
+    "colluderShare": 0.2,
+    "canaryShare": 0.15,
+    "workers": 60,
+    "epochs": 10,
+    "realItemsPerEpoch": 40
+  },
+  "rows": [
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 1,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.465,
+        "residues": 42,
+        "reT": 210,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 2,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.4125,
+        "residues": 35,
+        "reT": 175,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 3,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3375,
+        "residues": 25,
+        "reT": 125,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 4,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3375,
+        "residues": 25,
+        "reT": 125,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 5,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.39,
+        "residues": 32,
+        "reT": 160,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 6,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.4275,
+        "residues": 37,
+        "reT": 185,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 7,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.39,
+        "residues": 32,
+        "reT": 160,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 8,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 1,
+        "falseAccusationRate": 0.020833333333333332,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.42,
+        "residues": 36,
+        "reT": 180,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 9,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3525,
+        "residues": 27,
+        "reT": 135,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 10,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.345,
+        "residues": 26,
+        "reT": 130,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 11,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.42,
+        "residues": 36,
+        "reT": 180,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 12,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.36,
+        "residues": 28,
+        "reT": 140,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 13,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.465,
+        "residues": 42,
+        "reT": 210,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 14,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.4275,
+        "residues": 37,
+        "reT": 185,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 15,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3825,
+        "residues": 31,
+        "reT": 155,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 16,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3975,
+        "residues": 33,
+        "reT": 165,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 17,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.375,
+        "residues": 30,
+        "reT": 150,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 18,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3675,
+        "residues": 29,
+        "reT": 145,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 19,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.405,
+        "residues": 34,
+        "reT": 170,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 20,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3525,
+        "residues": 27,
+        "reT": 135,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 21,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.36,
+        "residues": 28,
+        "reT": 140,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 22,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3975,
+        "residues": 33,
+        "reT": 165,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 23,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3375,
+        "residues": 25,
+        "reT": 125,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 24,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3675,
+        "residues": 29,
+        "reT": 145,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 25,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3525,
+        "residues": 27,
+        "reT": 135,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 26,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.465,
+        "residues": 42,
+        "reT": 210,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 27,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.3675,
+        "residues": 29,
+        "reT": 145,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 28,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.36,
+        "residues": 28,
+        "reT": 140,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 29,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.39,
+        "residues": 32,
+        "reT": 160,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "all-on",
+      "channel": false,
+      "seed": 30,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3.525,
+        "checksPerItem": 0.345,
+        "residues": 26,
+        "reT": 130,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 1,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.465,
+        "residues": 42,
+        "reT": 210,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 2,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.405,
+        "residues": 34,
+        "reT": 170,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 3,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 1,
+        "falseAccusationRate": 0.020833333333333332,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.3825,
+        "residues": 31,
+        "reT": 155,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 4,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.36,
+        "residues": 28,
+        "reT": 140,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 5,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.435,
+        "residues": 38,
+        "reT": 190,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 6,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4275,
+        "residues": 37,
+        "reT": 185,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 7,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4425,
+        "residues": 39,
+        "reT": 195,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 8,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.42,
+        "residues": 36,
+        "reT": 180,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 9,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4575,
+        "residues": 41,
+        "reT": 205,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 10,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.3825,
+        "residues": 31,
+        "reT": 155,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 11,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4125,
+        "residues": 35,
+        "reT": 175,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 12,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4275,
+        "residues": 37,
+        "reT": 185,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 13,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4275,
+        "residues": 37,
+        "reT": 185,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 14,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4125,
+        "residues": 35,
+        "reT": 175,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 15,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 1,
+        "falseAccusationRate": 0.020833333333333332,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.435,
+        "residues": 38,
+        "reT": 190,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 16,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4125,
+        "residues": 35,
+        "reT": 175,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 17,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.405,
+        "residues": 34,
+        "reT": 170,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 18,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.375,
+        "residues": 30,
+        "reT": 150,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 19,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.435,
+        "residues": 38,
+        "reT": 190,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 20,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.3675,
+        "residues": 29,
+        "reT": 145,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 21,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.3825,
+        "residues": 31,
+        "reT": 155,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 22,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.3825,
+        "residues": 31,
+        "reT": 155,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 23,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.405,
+        "residues": 34,
+        "reT": 170,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 24,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.405,
+        "residues": 34,
+        "reT": 170,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 25,
+      "result": {
+        "realItems": 400,
+        "corrupted": 1,
+        "corruptionRate": 0.0025,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.435,
+        "residues": 38,
+        "reT": 190,
+        "fairEpochs": 9,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 26,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.4125,
+        "residues": 35,
+        "reT": 175,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 27,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.42,
+        "residues": 36,
+        "reT": 180,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 28,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.3825,
+        "residues": 31,
+        "reT": 155,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 29,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.405,
+        "residues": 34,
+        "reT": 170,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    },
+    {
+      "condition": "no-canaries",
+      "channel": false,
+      "seed": 30,
+      "result": {
+        "realItems": 400,
+        "corrupted": 0,
+        "corruptionRate": 0,
+        "colluders": 12,
+        "colludersRevoked": 12,
+        "colluderDetection": 1,
+        "honestRevoked": 0,
+        "falseAccusationRate": 0,
+        "verifierColludersRevoked": 0,
+        "honestVerifiersRevoked": 0,
+        "overhead": 3,
+        "checksPerItem": 0.3675,
+        "residues": 29,
+        "reT": 145,
+        "fairEpochs": 10,
+        "firstDetectionEpoch": 1
+      },
+      "lieRateByHeld": {
+        "1": 1,
+        "2": 1,
+        "3": null
+      }
+    }
+  ]
+}

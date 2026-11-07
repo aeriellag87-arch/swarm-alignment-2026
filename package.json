@@ -1,0 +1,15 @@
+{
+  "name": "swarm-alignment-2026",
+  "private": true,
+  "type": "module",
+  "description": "Two Swarm Alignment Hackathon entries: LLM cartels against a useful-work turnstile, and split approvals against an Allow prompt",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test src/lib/turnstile/collusion-sim.test.ts experiment/swarm-2026/swarm.test.ts",
+    "run-all": "bash experiment/swarm-2026/run-all.sh"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.135.0",
+    "@noble/hashes": "2.4.0"
+  }
+}
