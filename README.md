@@ -6,7 +6,9 @@ safety mechanism with AI agents as the attackers or reviewers.
 | | Entry A (Track 3) | Entry B (Track 4) |
 | --- | --- | --- |
 | Question | Can colluding LLM agents get wrong answers past a work-checking turnstile? | Can a swarm get a risky action approved by splitting it into harmless-looking requests? |
-| Report | [REPORT-A.md](experiment/swarm-2026/runs/20261107T1647Z/REPORT-A.md) | [REPORT-B.md](experiment/swarm-2026/runs/20261107T1647Z/REPORT-B.md) |
+| Report (PDF) | [entry-a-turnstile.pdf](reports/entry-a-turnstile.pdf) | [entry-b-split-approvals.pdf](reports/entry-b-split-approvals.pdf) |
+| Report (Markdown) | [REPORT-A.md](experiment/swarm-2026/runs/20261107T1647Z/REPORT-A.md) | [REPORT-B.md](experiment/swarm-2026/runs/20261107T1647Z/REPORT-B.md) |
+| Authors | RNG Goulden | RNG Goulden, Dale Hyde |
 | Code | [experiment/swarm-2026/t3-turnstile/](experiment/swarm-2026/t3-turnstile/) | [experiment/swarm-2026/t4-split-approvals/](experiment/swarm-2026/t4-split-approvals/) |
 
 Start with [experiment/swarm-2026/GUIDE.md](experiment/swarm-2026/GUIDE.md) for how the experiments work, or
@@ -48,7 +50,20 @@ Each run writes a new folder in `experiment/swarm-2026/runs/`. The model-free st
 scripted results exactly.
 
 The run was made from commit `28a91362` of the original codebase. The files here are the same files at that commit;
-only `package.json`, this README, `src/README.md` and the clone step in `GPU-PROMPT.md` are new to this repository.
+only `package.json`, this README, `src/README.md`, `reports/` and the clone step in `GPU-PROMPT.md` are new to this
+repository.
+
+## The reports
+
+`reports/` holds both submissions as LaTeX on the Apart Research sprint template's layout (`apart.sty`), set in the
+Featherlight faces (Spectral and IBM Plex Mono, SIL Open Font License 1.1) in `reports/fonts/`. To rebuild:
+
+```bash
+cd reports && xelatex entry-a-turnstile.tex && xelatex entry-a-turnstile.tex
+```
+
+and the same for `entry-b-split-approvals.tex`. `swarm-alignment-2026.zip` at the top is everything in this repository,
+in one file.
 
 ## Data
 

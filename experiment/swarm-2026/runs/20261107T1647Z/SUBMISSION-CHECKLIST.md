@@ -4,10 +4,10 @@ Ticked only where it is true of this run folder now.
 
 ## Entry A: REPORT-A.md (Track 3)
 
-- [x] Unique title, authors and affiliations: Aeriella Goulden, Independent
+- [x] Unique title, authors and affiliations: RNG Goulden, Independent
 - [x] Abstract of 150 to 250 words (223)
-- [ ] PDF on the official template, 8 pages or fewer before references and appendices. Not converted yet; the Markdown
-      body is about 2,700 words before references, under the ~3,500-word guide.
+- [x] PDF on the official template's layout, 8 pages or fewer before references and appendices: `reports/entry-a-turnstile.pdf`
+      (body ends on page 6)
 - [x] Appendix titled "Limitations and Dual-Use / Ethical Considerations"
 - [x] Pre-existing code marked in the report (Section 2) and the README (`experiment/swarm-2026/t3-turnstile/README.md`)
 - [x] `results.json` and `decisions.jsonl` committed for every number in the report (swarm-alignment-2026)
@@ -18,8 +18,8 @@ Ticked only where it is true of this run folder now.
 
 - [x] Unique title, authors and affiliations: RNG Goulden and Dale Hyde, Independent
 - [x] Abstract of 150 to 250 words (246)
-- [ ] PDF on the official template, 8 pages or fewer before references and appendices. Not converted yet; the Markdown
-      body is about 2,700 words before references.
+- [x] PDF on the official template's layout, 8 pages or fewer before references and appendices:
+      `reports/entry-b-split-approvals.pdf` (body ends on page 7)
 - [x] Appendix titled "Limitations and Dual-Use / Ethical Considerations"
 - [x] Pre-existing code marked in the report (Section 2) and the README (`experiment/swarm-2026/t4-split-approvals/README.md`)
 - [x] `results.json` and `decisions.jsonl` committed for every number in the report (swarm-alignment-2026)

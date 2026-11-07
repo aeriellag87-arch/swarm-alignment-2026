@@ -1,0 +1,120 @@
+% apart.sty: a LaTeX rendering of the Apart Research sprint report template
+% (title between rules, author grid, "With Apart Research", italic abstract, hackathon footnote).
+% Compile with xelatex.
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{apart}[2026/11/07 Apart Research sprint report]
+
+\RequirePackage[letterpaper,margin=1in,footskip=0.45in]{geometry}
+\RequirePackage{fontspec}
+% The Featherlight faces: the exact bytes the app's Featherlight plates are minted from (Spectral and IBM Plex Mono,
+% SIL Open Font License 1.1), decoded from src/lib/featherlight/faces/ into fonts/ with their sha256 checked.
+% There is no semibold italic, so bold italic is the semibold slanted.
+\setmainfont{featherlight-serif-400.ttf}[
+  Path=fonts/, ItalicFont=featherlight-serif-400i.ttf, BoldFont=featherlight-serif-600.ttf,
+  BoldItalicFont=featherlight-serif-600.ttf, BoldItalicFeatures={FakeSlant=0.18}]
+\setsansfont{featherlight-serif-600.ttf}[Path=fonts/]
+\setmonofont{featherlight-mono-400.ttf}[
+  Path=fonts/, ItalicFont=featherlight-mono-400i.ttf, BoldFont=featherlight-mono-600.ttf, Scale=0.86]
+\newfontfamily\displayfont{featherlight-serif-600.ttf}[Path=fonts/, BoldFont=featherlight-serif-600.ttf, LetterSpace=-0.6]
+
+\RequirePackage{microtype}
+\RequirePackage[dvipsnames,table]{xcolor}
+\RequirePackage{graphicx}
+\RequirePackage{booktabs}
+\RequirePackage{tabularx}
+\RequirePackage{array}
+\RequirePackage{multirow}
+\RequirePackage{enumitem}
+\RequirePackage{titlesec}
+\RequirePackage[font=small,labelfont={bf,sf},labelsep=period,skip=6pt]{caption}
+\RequirePackage{tikz}
+\usetikzlibrary{positioning,calc,arrows.meta,shapes.geometric,fit,backgrounds}
+\RequirePackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\RequirePackage{fancyhdr}
+\RequirePackage{csquotes}
+\RequirePackage[round]{natbib}
+\setlength{\bibsep}{3pt}
+\RequirePackage{xurl}
+\RequirePackage[hidelinks]{hyperref}
+\RequirePackage[nameinlink,noabbrev]{cleveref}
+
+% ── palette ───────────────────────────────────────────────────────────────────
+\definecolor{ink}{HTML}{1F2328}
+\definecolor{muted}{HTML}{5B6470}
+\definecolor{rule}{HTML}{C9CED6}
+\definecolor{accent}{HTML}{2F5D8A}     % links, headings' numbers
+\definecolor{scripted}{HTML}{C0672B}  % scripted cartel / one-at-a-time
+\definecolor{greedy}{HTML}{8A8F98}    % greedy baseline
+\definecolor{llama}{HTML}{2F5D8A}     % llama3.1:8b
+\definecolor{qwen}{HTML}{5E8C5A}      % qwen2.5:14b
+\definecolor{harm}{HTML}{B5473A}
+\definecolor{safe}{HTML}{E8EDF2}
+\definecolor{boxbg}{HTML}{F5F7FA}
+\hypersetup{colorlinks=true,linkcolor=accent,citecolor=accent,urlcolor=accent}
+\color{ink}
+
+% ── text ──────────────────────────────────────────────────────────────────────
+\linespread{1.06}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2em}
+\setlength{\parskip}{0.55em}
+\setlist{itemsep=0.25em,topsep=0.3em,parsep=0pt,leftmargin=1.4em}
+\renewcommand{\arraystretch}{1.18}
+
+\titleformat{\section}{\displayfont\Large}{\color{accent}\thesection.}{0.5em}{}
+\titleformat{\subsection}{\displayfont\large}{\color{accent}\thesubsection}{0.5em}{}
+\titleformat{\paragraph}[runin]{\bfseries}{}{0pt}{}[.]
+\titlespacing*{\section}{0pt}{1.3em}{0.45em}
+\titlespacing*{\subsection}{0pt}{0.9em}{0.3em}
+\titlespacing*{\paragraph}{0pt}{0.5em}{0.6em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\fancyhead[R]{\footnotesize\color{muted}\@shorttitle}
+\newcommand{\@shorttitle}{}
+\newcommand{\shorttitle}[1]{\renewcommand{\@shorttitle}{#1}}
+
+% ── title block ───────────────────────────────────────────────────────────────
+\newcommand{\@authorgrid}{}
+\newcommand{\authorgrid}[1]{\renewcommand{\@authorgrid}{#1}}
+\newcommand{\@track}{}
+\newcommand{\track}[1]{\renewcommand{\@track}{#1}}
+\newcommand{\person}[2]{\begin{tabular}[t]{@{}c@{}}#1\\[-1pt]{\color{muted}#2}\end{tabular}}
+
+\renewcommand{\maketitle}{%
+  \thispagestyle{plain}%
+  \begin{center}
+    {\color{ink}\rule{\textwidth}{2.2pt}}\par\vspace{14pt}
+    {\displayfont\fontsize{17}{21.5}\selectfont \@title\footnote{Research conducted at the
+      \href{https://apartresearch.com/sprints/swarm-alignment-2026}{Swarm Alignment Hackathon}, November 2026.
+      \@track}\par}
+    \vspace{12pt}{\color{ink}\rule{\textwidth}{0.6pt}}\par\vspace{14pt}
+    {\normalsize\@authorgrid\par}
+    \vspace{10pt}
+    {\bfseries With}\\Apart Research\par
+    \vspace{14pt}
+  \end{center}}
+
+\renewenvironment{abstract}
+  {\begin{center}{\displayfont\large Abstract}\end{center}\vspace{-4pt}
+   \begin{list}{}{\setlength{\leftmargin}{0.11\textwidth}\setlength{\rightmargin}{0.11\textwidth}}\item\relax\itshape\small}
+  {\end{list}\vspace{6pt}}
+
+% A shaded box for the statement of prior work
+\newenvironment{priorwork}
+  {\par\smallskip\noindent\begin{tikzpicture}\node[fill=boxbg,draw=rule,rounded corners=2pt,inner sep=8pt,text width=\dimexpr\linewidth-17pt\relax]\bgroup\small}
+  {\egroup;\end{tikzpicture}\par\smallskip}
+
+% Plot defaults shared by both papers
+\pgfplotsset{
+  apart/.style={
+    axis lines*=left, axis line style={rule}, tick style={rule},
+    tick label style={font=\footnotesize\color{muted}}, label style={font=\footnotesize},
+    title style={font=\small\bfseries}, legend style={font=\footnotesize,draw=none,fill=none},
+    ymajorgrids, grid style={rule!60}, enlarge x limits=0.18,
+  }
+}
+\endinput
