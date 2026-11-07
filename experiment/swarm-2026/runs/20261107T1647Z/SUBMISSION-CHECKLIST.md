@@ -10,8 +10,7 @@ Ticked only where it is true of this run folder now.
       body is about 2,700 words before references, under the ~3,500-word guide.
 - [x] Appendix titled "Limitations and Dual-Use / Ethical Considerations"
 - [x] Pre-existing code marked in the report (Section 2) and the README (`experiment/swarm-2026/t3-turnstile/README.md`)
-- [ ] `results.json` and `decisions.jsonl` committed for every number in the report. They are in this folder; ticked
-      once the commit is pushed.
+- [x] `results.json` and `decisions.jsonl` committed for every number in the report (swarm-alignment-2026)
 - [ ] Optional: public repo link and a 3 to 5 minute video
 - [ ] Submitted before Sun 8 Nov 23:59 AoE
 
@@ -23,7 +22,7 @@ Ticked only where it is true of this run folder now.
       body is about 2,700 words before references.
 - [x] Appendix titled "Limitations and Dual-Use / Ethical Considerations"
 - [x] Pre-existing code marked in the report (Section 2) and the README (`experiment/swarm-2026/t4-split-approvals/README.md`)
-- [ ] `results.json` and `decisions.jsonl` committed for every number in the report. In this folder; ticked once pushed.
+- [x] `results.json` and `decisions.jsonl` committed for every number in the report (swarm-alignment-2026)
 - [ ] Optional: public repo link and a 3 to 5 minute video
 - [ ] Submitted before Sun 8 Nov 23:59 AoE
 
