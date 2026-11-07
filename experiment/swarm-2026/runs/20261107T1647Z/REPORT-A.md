@@ -1,7 +1,6 @@
 # Small LLM cartels don't rediscover the attack only canaries catch: language-model collusion against a useful-work turnstile
 
-[Author 1, affiliation]
-[Author 2, affiliation]
+Aeriella Goulden, Independent
 
 Track 3: Strengthening Agent Infrastructure
 

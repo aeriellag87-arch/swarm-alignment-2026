@@ -1,7 +1,7 @@
 # Each step looked fine: split ward requests against a one-at-a-time approval prompt, and two gaps that bypass any reviewer
 
-[Author 1, affiliation]
-[Author 2, affiliation]
+RNG Goulden, Independent
+Dale Hyde, Independent
 
 Track 4: Multi-Agent Oversight and Control
 

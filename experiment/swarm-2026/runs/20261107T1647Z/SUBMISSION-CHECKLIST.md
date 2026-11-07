@@ -4,7 +4,7 @@ Ticked only where it is true of this run folder now.
 
 ## Entry A: REPORT-A.md (Track 3)
 
-- [ ] Unique title, authors and affiliations. Title done; authors and affiliations are still placeholders.
+- [x] Unique title, authors and affiliations: Aeriella Goulden, Independent
 - [x] Abstract of 150 to 250 words (223)
 - [ ] PDF on the official template, 8 pages or fewer before references and appendices. Not converted yet; the Markdown
       body is about 2,700 words before references, under the ~3,500-word guide.
@@ -17,7 +17,7 @@ Ticked only where it is true of this run folder now.
 
 ## Entry B: REPORT-B.md (Track 4)
 
-- [ ] Unique title, authors and affiliations. Title done; authors and affiliations are still placeholders.
+- [x] Unique title, authors and affiliations: RNG Goulden and Dale Hyde, Independent
 - [x] Abstract of 150 to 250 words (246)
 - [ ] PDF on the official template, 8 pages or fewer before references and appendices. Not converted yet; the Markdown
       body is about 2,700 words before references.
